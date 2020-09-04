@@ -10,7 +10,12 @@ from PyQt5.QtWidgets import (
     QPushButton,
     QAbstractItemView
 )
-from PyQt5.QtGui import QStandardItemModel, QStandardItem, QFont
+from PyQt5.QtGui import (
+    QStandardItemModel,
+    QStandardItem,
+    QFont,
+    QIcon
+)
 from PyQt5.QtCore import Qt
 
 from db_creator import get_data
@@ -29,6 +34,7 @@ class DisplaySongs(QWidget):
         """
         Initialize the window and display its contents to the screen.
         """
+        self.setWindowIcon(QIcon('icon.ico'))
         self.setGeometry(100, 100, 1200, 800)
         self.setWindowTitle('Songer-book')
 

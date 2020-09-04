@@ -1,2 +1,2 @@
 # song-book
-song-book with songs and chords for guitsr stored in db(sqlite)
+song-book with songs and chords for guitar stored in db(sqlite)
